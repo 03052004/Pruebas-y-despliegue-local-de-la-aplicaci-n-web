@@ -1,0 +1,374 @@
+/* ======================================
+   ESTILOS GENERALES
+====================================== */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+    padding:0;
+    color:#212529;
+}
+
+
+/* ======================================
+   ENCABEZADO
+====================================== */
+
+.header{
+
+    background:#ffffff;
+    text-align:center;
+    padding:30px;
+    position:relative;
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
+
+}
+
+
+.logo{
+
+    position:absolute;
+    top:20px;
+    right:30px;
+    width:150px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,.3);
+
+}
+
+
+.header h1{
+
+    font-size:3rem;
+    font-weight:bold;
+    color:#0d6efd;
+    margin-bottom:10px;
+
+}
+
+
+.header p{
+
+    font-size:1.2rem;
+    margin:0;
+
+}
+
+
+/* ======================================
+   NAVBAR
+====================================== */
+
+
+.navbar-brand{
+
+    font-weight:bold;
+    letter-spacing:1px;
+
+}
+
+
+.nav-link{
+
+    transition:.3s;
+
+}
+
+
+.nav-link:hover{
+
+    color:#0dcaf0 !important;
+
+}
+
+
+/* ======================================
+   HERO
+====================================== */
+
+
+.hero{
+
+    background:linear-gradient(135deg,#0d6efd,#6ea8fe);
+    color:white;
+    text-align:center;
+    padding:90px 20px;
+
+}
+
+
+.hero h1{
+
+    font-size:3rem;
+    font-weight:bold;
+
+}
+
+
+.hero p{
+
+    font-size:1.2rem;
+
+}
+
+
+/* ======================================
+   QUIÉNES SOMOS
+====================================== */
+
+
+.about-img{
+
+    border-radius:15px;
+    box-shadow:0 6px 15px rgba(0,0,0,.25);
+
+}
+
+
+
+/* ======================================
+   TARJETAS
+====================================== */
+
+
+.card{
+
+    border:none;
+    border-radius:15px;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+.card-title{
+
+    color:#0d6efd;
+    font-weight:bold;
+
+}
+
+
+.card-text{
+
+    color:#555;
+
+}
+
+
+/* ======================================
+   FORMULARIOS BOOTSTRAP
+====================================== */
+
+
+#formContacto,
+#formRegistro{
+
+    background:#ffffff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+
+}
+
+
+.form-label{
+
+    font-weight:bold;
+
+}
+
+
+.form-control,
+.form-select{
+
+    border-radius:10px;
+
+}
+
+
+.form-control:focus,
+.form-select:focus{
+
+    box-shadow:0 0 10px rgba(13,110,253,.25);
+
+}
+
+
+/* ======================================
+   BOTONES
+====================================== */
+
+
+.btn{
+
+    border-radius:10px;
+    transition:.3s;
+
+}
+
+
+.btn:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* ======================================
+   ALERTAS
+====================================== */
+
+
+.alert{
+
+    border-radius:12px;
+
+}
+
+
+
+/* ======================================
+   SPINNER
+====================================== */
+
+
+#spinnerCarga{
+
+    padding:20px;
+
+}
+
+
+
+/* ======================================
+   REGISTRO DINÁMICO
+====================================== */
+
+
+#registro{
+
+    padding-top:30px;
+    padding-bottom:30px;
+
+}
+
+
+#registro h2{
+
+    text-align:center;
+    margin-bottom:25px;
+    color:#0d6efd;
+
+}
+
+
+#listaRegistros .card{
+
+    height:100%;
+
+}
+
+
+
+/* ======================================
+   REDES SOCIALES
+====================================== */
+
+
+.social-links a{
+
+    margin:5px;
+
+}
+
+
+
+/* ======================================
+   FOOTER
+====================================== */
+
+
+footer{
+
+    background:#212529;
+    color:#ffffff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+
+}
+
+
+
+/* ======================================
+   RESPONSIVE
+====================================== */
+
+
+@media(max-width:768px){
+
+
+    .logo{
+
+        position:static;
+        display:block;
+        margin:0 auto 20px;
+        width:120px;
+
+    }
+
+
+    .header h1{
+
+        font-size:2rem;
+
+    }
+
+
+    .header p{
+
+        font-size:1rem;
+
+    }
+
+
+    .hero{
+
+        padding:60px 20px;
+
+    }
+
+
+    .hero h1{
+
+        font-size:2.2rem;
+
+    }
+
+
+    .card{
+
+        margin-bottom:20px;
+
+    }
+
+
+    #formContacto,
+    #formRegistro{
+
+        padding:20px;
+
+    }
+
+
+}
